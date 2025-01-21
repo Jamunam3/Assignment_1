@@ -7,7 +7,7 @@ import plotly.express as px
 conn = pymysql.connect(
     host="localhost",
     user="root",
-    password="Sindhuravi@3",
+    password="",
     database="Sportradar"
 )
 mycursor = conn.cursor()
